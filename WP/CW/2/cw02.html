@@ -1,0 +1,251 @@
+<!-- Webpro Fall 2020 Da best -->
+<!-- Author: Sangwha Lee -->
+<!-- Date: 09/19/2020 -->
+<!-- Validated: OK 4 sure -->
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>
+		HTML Table Design
+		</title>
+	
+		<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+		</style>
+	</head>
+	
+	<body>
+	<section>
+	<h2> Activity 01: Creating a Table </h2>
+	<div>
+		<table style="width: 80%" align="center">
+		<caption> Tabling </caption>
+			<tr align="center">
+				<td width=30% height=60 bgcolor="red"><p style="font-family: verdana">red cell </p></td>
+				<td width=70% bgcolor="lightblue"><p style="font-family: Comic Sans MS">light blue cell </p></td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table style="width: 55%" align="center">
+		<caption> CSC4370 timetable </caption>
+			<tr>
+				<td width=20%> </td>
+				<th width=150> Monday </th>
+				<th width=150> Tuesday </th>
+				<th width=150> Wednesday </th>
+				<th width=150> Thursday </th>
+				<th width=150> Friday </th>
+			</tr>
+			<tr>
+				<td> 12:00 - 02:00 pm </td>
+				<td> free </td>
+				<td> free </td>
+				<td> free </td>
+				<td> free </td>
+				<td> free </td>
+			</tr>
+			<tr>
+				<td> 02:00 - 04:00 pm </td>
+				<td> WP class </td>
+				<td> free </td>
+				<td> WP class </td>
+				<td> free </td>
+				<td> free </td>
+			</tr>
+			<tr>
+				<td> 04:00 - 06:00 pm </td>
+				<td> WP study </td>
+				<td> free </td>
+				<td> WP study </td>
+				<td> free </td>
+				<td> free </td>
+			</tr>
+			<tr>
+				<td> 06:00 - 08:00 pm </td>
+				<td> CA class </td>
+				<td> DA class </td>
+				<td> CA class </td>
+				<td> DA class </td>
+				<td> free </td>
+			</tr>
+			<tr>
+				<td> 08:00 - 10:00 pm </td>
+				<td> CA study </td>
+				<td> DA study </td>
+				<td> CA study </td>
+				<td> DA study </td>
+				<td> free </td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	<section>	
+	<h2> Activity 02: HTML Color Table </h2>
+	<div>
+		<table style="width: 40%" align="center">
+		<caption> Some HTML Colors </caption>
+			<tr> 
+				<th width=100> Color </th>
+				<th width=200> Name </th>
+				<th width=200> Hexadecimal </th>
+				<th width=200> RGB Value </th>
+			</tr>
+			<tr>
+				<td bgcolor="fa8072"> </td>
+				<td> Salmon </td>
+				<td> FA8072 </td>
+				<td> 250-128-114 </td>
+			</tr>
+			<tr>
+				<td bgcolor="ffd700"> </td>
+				<td> Gold </td>
+				<td> FFD700 </td>
+				<td> 255-215-0 </td>
+			</tr>
+			<tr>
+				<td bgcolor="000000"> </td>
+				<td> Black </td>
+				<td> 000000 </td>
+				<td> 0-0-0 </td>
+			</tr>
+			<tr>
+				<td bgcolor="FFFFFF"> </td>
+				<td> White </td>
+				<td> FFFFFF </td>
+				<td> 255-255-255 </td>
+			</tr>
+			<tr>
+				<td bgcolor="ff0000"> </td>
+				<td> Red </td>
+				<td> FF0000 </td>
+				<td> 255-0-0 </td>
+			</tr>
+			<tr>
+				<td bgcolor="00ff00"> </td>
+				<td> Lime </td>
+				<td> 00FF00 </td>
+				<td> 0-255-0 </td>
+			</tr>
+			<tr>
+				<td bgcolor="0000ff"> </td>
+				<td> Blue </td>
+				<td> 0000FF </td>
+				<td> 0-0-255 </td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	<section>
+	<h2> Activity 03: Using rowspan </h2>
+	<div>
+		<table style="width: 30%" align="center">
+			<tr>
+				<td bgcolor="red" rowspan=2 width=75> red cell </td>
+				<td bgcolor="silver" height=100> silver cell </td>
+			</tr>
+			<tr>
+				<td bgcolor="gold" height=100> gold cell </td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	<section>
+	<h2> Activity 04: Using colspan, cellspacing and cellpadding </h2>
+	<div>
+		<table style="width: 30%" align="center" cellspacing=20 cellpadding=20>
+			<tr>
+				<td colspan=2 height=100 bgcolor="red"> red cell </td>
+			</tr>
+			<tr>
+				<td bgcolor="silver" height=100> silver cell </td>
+				<td bgcolor="gold" height=100> gold cell </td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	<section>
+	<h2> Activity 05: More cellspacing and cellpadding </h2>
+	<div>
+		<table style="width: 30%" height=30 align="center" cellspacing=0 cellpadding=0>
+			<tr>
+				<td height=15 bgcolor="darkred"> </td>
+				<td bgcolor="red"> </td>
+				<td bgcolor="pink"> </td>
+			</tr>
+				<td height=15 bgcolor="darkblue"> </td>
+				<td bgcolor="blue"> </td>
+				<td bgcolor="lightblue"> </td>
+		</table>
+	</div>
+	</section>
+	<section>
+	<h2> Activity 06: Time Table </h2>
+	<div>
+		<table style="width: 75" height= 50 align="center" cellspacing=0 cellpadding=20>
+		<caption> Sangwha's Time Table </caption>
+			<tr>
+				<th width=100> </th>
+				<th colspan=3 width=200> Morning </th>
+				<th width=200> Lunch </th>
+				<th colspan=4 width=200> Afternoon </th>
+				<th colspan=3 width=200> Evening </th>
+			</tr>
+			<tr align="center">
+				<td> </td>
+				<td> 9-10am </td>
+				<td> 10-11am </td>
+				<td> 11-12am </td>
+				<td> 1-2pm </td>
+				<td> 2-3pm </td>
+				<td> 3-4pm </td>
+				<td> 4-5pm </td>
+				<td> 5-6pm </td>
+				<td> 6-7pm </td>
+				<td> 7-8pm </td>
+				<td> 8-9pm </td>
+			</tr>
+			<tr align="center">
+				<td> Monday </td>
+				<td colspan=4> Freeeeeeeeeeeeeeee </td>
+				<td> CSC4370 </td>
+				<td colspan=2> Study </td>
+				<td colspan=3> CSC4210 </td>
+				<td> Study </td>
+			</tr>
+			<tr align="center">
+				<td> Tuesday </td>
+				<td colspan=5> Freeeeeeeeeeeeeeee </td>
+				<td colspan=2> Study </td>
+				<td colspan=3> CSC4520 </td>
+				<td> Study </td>
+			</tr>
+			<tr align="center">
+				<td> Wednesday </td>
+				<td colspan=4> Freeeeeeeeeeeeeeee </td>
+				<td> CSC4370 </td>
+				<td colspan=2> Study </td>
+				<td colspan=3> CSC4210 </td>
+				<td> Study </td>
+			</tr>
+			<tr align="center">
+				<td> Thursday </td>
+				<td colspan=5> Freeeeeeeeeeeeeeee </td>
+				<td colspan=2> Study </td>
+				<td colspan=3> CSC4520 </td>
+				<td> Study </td>
+			</tr>
+			<tr align="center">
+				<td> Friday </td>
+				<td colspan=11> Freeeeeeeeeeeeeeee </td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	</body>
+	
+</html>

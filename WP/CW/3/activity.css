@@ -1,0 +1,67 @@
+
+.h1example{
+  color: red;
+  margin-left: 2cm;
+}
+
+.h2example{
+  color: red;
+  margin-left: 4cm;
+}
+
+.p1{
+  color: darkred;
+  text-indent: 2cm;
+  margin-left: 6cm;
+}
+
+.artist{
+  font-size: 14pt;
+  font-family: arial;
+  font-weight: bold;
+  color: moccasin;
+}
+
+.songtitle{
+  font-size: 14pt;
+  font-family: arial;
+  font-weight: normal;
+  color: khaki;
+}
+
+.album{
+  font-size: 12pt;
+  font-family: arial;
+  font-weight: normal;
+  color: khaki;
+}
+
+.year{
+  font-size: 12pt;
+  font-family: Arial;
+  font-weight: bold;
+  color: ivory;
+}
+
+.background{
+  color: chocolate;
+}
+
+verse{
+  font-size: 14pt;
+  font-family: trebuchet MS;
+  font-weight: bold;
+  color: gold;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+chorus{
+  font-size: 14pt;
+  font-family: trebuchet MS;
+  font-weight: bold;
+  font-style: italic;
+  color: gold;
+  margin-left: 4cm;
+  margin-right: 4cm;
+}

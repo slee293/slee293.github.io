@@ -1,0 +1,89 @@
+
+body{
+  color: #333030;
+  font-family: sans-serif;
+  background-image: url("backgroundSwedishBlue.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span{
+  color: red; 
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+}
+
+a:hover { 
+  background-color: #D8E6E7;
+}
+
+img.profile{
+  width: 100%;
+}
+
+img.quote{
+  position: absolute;
+  right: 10px;
+  width: 600px;
+}
+
+table{
+  border: 0px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+th{
+  background-color: gray;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td{
+  text-align: left;
+  padding: 8px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.imgheader{
+  text-align: center;
+}
+
+.header{
+  background-color: #6E7783;
+  padding: 5px;
+  text-align: center;
+}
+
+.navigationBar{
+  overflow: hidden;
+  background-color: #A3A1A1;
+}
+
+.navigationBar a{
+  float: left;
+  display: block;
+  color: #333030;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigationBar a:hover {
+  background-color: #ddd;
+  color: black;
+}

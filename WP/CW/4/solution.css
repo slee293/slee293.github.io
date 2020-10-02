@@ -1,0 +1,41 @@
+main{
+  display: flex;
+}
+
+aside{
+  flex-basis: 33%;
+  float: left;
+  background-color: lightgray;
+}
+
+section{
+  flex-basis: 67%;
+}
+
+img{
+  float: right;
+  width: 200px;
+}
+
+#p1{
+  clear: both;
+}
+
+.box{
+  padding: 2em;
+  margin: 2em;
+  border-style: dashed;
+  border-color: red;
+  border-width: 4px;
+}
+
+#p2{
+  position: fixed;
+  bottom: 5px;
+  right: 0px;
+  background-color: white;
+}
+
+#p3{
+  padding-bottom: 3em;
+}
